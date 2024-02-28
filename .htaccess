@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^singularity\.my.id$ [NC]
+RewriteRule ^$ https://singularity.my.id/ [R=301,L]
